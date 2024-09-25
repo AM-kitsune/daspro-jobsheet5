@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PemilihanBilanganTernary13 {
+public class PemilihanBilanganTernary14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan sebuah angka: ");
