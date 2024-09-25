@@ -43,7 +43,7 @@ public class cafe14 {
             totalHarga += 0.4 * totalHarga;
             break;
         default:
-            throw new AssertionError();
+            throw new AssertionError("Ukuran Cup Tidak tersedia");
     }
     double diskon = keanggotaan ? 0 : 0.1;
     double nominalBayar = totalHarga - (diskon * totalHarga);
